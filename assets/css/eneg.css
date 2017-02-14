@@ -1,0 +1,45 @@
+    body{
+        Bbackground: orange;
+        padding:0;
+        margin: 0px auto;
+        
+    }   
+    
+    .wrapper{
+        height: 100%;
+        margin: 0 auto;
+        padding: 0px;
+    }
+    
+    header{
+        min-height: 50px;
+        background-color: chocolate;
+    }
+    .left_panel{
+        float: left;
+        height:585px;
+        background-color: antiquewhite;
+        gwidth:256px;
+        width: 20%;
+    }
+        .right_panel{
+        float: right;
+        height:585px;
+        background-color: antiquewhite;
+        vwidth:157px;
+        width: 15%;
+    }
+    .content{
+        height: 585px;
+        widfth: 810px;
+        width: 75%;
+        margin-left: 20%;
+        background-color: bisque;
+    }
+    footer{
+        min-height: 30px;
+        background-color:coral;
+        text-align: center;
+        line-height: 30px;
+    }
+    
