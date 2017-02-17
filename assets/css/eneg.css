@@ -73,3 +73,45 @@ body{
     nav ul li a:hover{
         background-color: antiquewhite;
     }
+
+
+
+/*   <!*=====================LOGIN PAGE STYLES=============================>*/
+  .panel{
+            position: relative;
+            margin: auto;
+            width: 250px;
+            background: rgba(255, 255, 255, 0.25);
+            padding: 20px;
+            top: 50px;
+            left: -85px;
+            text-align: center;
+            box-shadow: 1px 1px 1px;
+            border-radius: 5px;
+
+        }
+
+        table{
+            margin: 0 auto;
+        }
+
+        table input[type="submit"]{
+            cursor: pointer;
+            padding: 10px;
+            background: chocolate;
+
+        }
+
+        input[type="email"],input[type="password"],input[type="text"]{
+             padding: 10px 10px 10px 20px;
+            text-align: center;
+            border-radius: 4px;
+
+
+        }
+
+
+
+
+
+
