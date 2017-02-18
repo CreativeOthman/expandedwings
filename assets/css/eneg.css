@@ -16,25 +16,26 @@ body{
     }
     .left_panel{
         float: left;
-        height:585px;
+        height:620px;
         background-color: antiquewhite;
         width: 20%;
     }
         .right_panel{
         float: right;
-        height:585px;
+        height:620px;
         background-color: antiquewhite;
         width: 15%;
     }
     .content{
-        height: 585px;
+        height: 620px;
         width: 75%;
         margin-left: 20%;
         background-color: antiquewhite;
     }
     footer{
         min-height: 30px;
-        background-color:coral;
+        box-shadow: 0px 0px 2px 0px;
+        background-color:antiquewhite;
         text-align: center;
         line-height: 30px;
     }
@@ -83,7 +84,7 @@ body{
             width: 250px;
             background: rgba(255, 255, 255, 0.25);
             padding: 20px;
-            top: 50px;
+            top: 60px;
             left: -85px;
             text-align: center;
             box-shadow: 1px 1px 1px;
@@ -95,15 +96,20 @@ body{
             margin: 0 auto;
         }
 
-        table input[type="submit"]{
+        table button[type="submit"]{
             cursor: pointer;
-            padding: 10px;
+            padding: 5px 25px;
             background: chocolate;
-
+            border-radius: 6px;
+            margin-top: 10px;
+        }
+         table button[type="submit"]:hover{
+            background: antiquewhite;
+            border-radius: 6px;
         }
 
         input[type="email"],input[type="password"],input[type="text"]{
-             padding: 10px 10px 10px 20px;
+             padding: 10px 10px 10px 10px;
             text-align: center;
             border-radius: 4px;
 
