@@ -91,7 +91,9 @@ body{
             border-radius: 5px;
 
         }
-
+  .red{
+    background: red;
+  }
         table{
             margin: 0 auto;
         }
@@ -102,10 +104,12 @@ body{
             background: chocolate;
             border-radius: 6px;
             margin-top: 10px;
+            color: antiquewhite;
         }
          table button[type="submit"]:hover{
             background: antiquewhite;
             border-radius: 6px;
+            color: chocolate;
         }
 
         input[type="email"],input[type="password"],input[type="text"]{
@@ -115,6 +119,75 @@ body{
 
 
         }
+
+
+/* ======================================USER PROFILE CARD==================================================*/
+.userCard{
+    margin: 0 auto;
+    backgrgound: #009dff;
+    height: 280px;
+    width: 200px;
+}
+
+.imgHolder{
+        margin: 10px auto;
+        background-image: url(../../assets/img/user.jpg) ;
+        width: 125px;
+        height: 125px;
+        border-radius: 125px;
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-origin: content-box;
+}   
+.userDetails{
+    
+}
+
+.info p,.info h3{
+    margin: 5px;
+}
+.info{
+    text-align:center;
+}   
+
+.info table{
+    margin: 15px auto;
+    margin-bottom: 10px: 
+}
+.info button{
+    padding: 5px 10px;
+    background: orange;
+    cursor: pointer;
+}
+
+.userNav{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: chocolate;
+}
+
+.userNav i{
+    padding-right:6px;
+    color: orange;   
+}
+
+.userNav li a{
+    text-decoration: none;
+    display: block;
+    width: 168px;
+    padding: 8px 16px;
+    color: #000;
+}
+.userNav li a:hover{
+    background-color: antiquewhite;
+    color: white;
+}
+
+.userDetails img {
+    width: 100%;
+    height: auto;
+}
 
 
 
