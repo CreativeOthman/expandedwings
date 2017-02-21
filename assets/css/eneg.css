@@ -2,6 +2,7 @@ body{
         padding:0;
         margin: 0px auto;
         background: antiquewhite;
+        width: 100%
         
     }   
     
@@ -9,11 +10,16 @@ body{
         height: 100%;
         margin: 0 auto;
         padding: 0px;
+        display: block;
+        padding: 0px;
     }
     
     header{
         min-height: 50px;
         background-color: chocolate;
+        position: fixed;
+        width: 100%;
+        top: 0px;
     }
     .left_panel{
         float: left;
@@ -33,6 +39,10 @@ body{
         margin-left: 20%;
         background-color: antiquewhite;
     }
+
+        #firstBox{
+            margin-top: 90px;
+        }
     footer{
         min-height: 30px;
         box-shadow: 0px 0px 2px 0px;
@@ -125,11 +135,14 @@ body{
 /* ======================================USER PROFILE CARD==================================================*/
 .userCard{
     margin: 0 auto;
-    background: #009dff;
     height: 280px;
     width: 200px;
+    position: fixed;
+    top: 60px;
+    left: 40px;
 
 }
+
 
 .imgHolder{
         margin: 10px auto;
@@ -143,6 +156,7 @@ body{
 }   
 .userDetails{
     box-shadow: 1px 2px 6px;
+
     
 }
 
@@ -194,12 +208,13 @@ body{
 
 /*================================TIMELINE CARD WIDGET============================*/
     .msgbox{
-        margin: -5px auto;
+        margin: 0px auto;
         padding: 0;
         width: 500px;
         height:400px;
         background: #FFF;
         box-shadow: -3px 6px 11px;
+        top: 60px;
 
     }
 
